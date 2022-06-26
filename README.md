@@ -1,3 +1,15 @@
+# Where we're at with supasleep-tracker
+
+- create-react-app
+- supabase - react quickstart partial
+- add logout button, sign in with email + password
+- https://tailwindcss.com/docs/guides/create-react-app
+- https://github.com/tailwindlabs/tailwindcss-forms
+
+
+---
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
