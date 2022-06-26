@@ -18,6 +18,9 @@ export default function App() {
       {!session ? <Auth /> : <div>
         <pre>{session.user.id}</pre>
         <pre>{JSON.stringify(session)}</pre>
+        <button onClick={() => {
+          supabase.auth.signOut()
+        }}>Logout</button>
       </div>}
     </div>
   )
